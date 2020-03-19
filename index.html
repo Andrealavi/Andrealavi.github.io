@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<title> Vacanza e Hobby </title> <!-- Titolo della pagina -->
+
+	<style type="text/css">
+
+		/* Assegnazione dei diversi stili con CSS */
+
+		a:link {
+			color: black;
+
+		}
+
+		a:visited{
+			color: black;
+		}
+
+		a:hover {
+			color: black;
+			text-decoration: none;
+			background-color: rgb(224, 224, 224);
+		}
+
+		.Titolo {
+			text-align: center;
+			color: rgb(179, 0, 0);
+		}
+
+		.Sottotitolo {
+			text-align: left;
+			color: rgb(13, 0, 110);
+			
+		}
+
+		.Immagine {
+			background-color: white;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+		}
+
+		.Paragrafo {
+			font-size: 28px;
+			text-align: justify;
+		}
+
+		body {
+			background-color: green;
+		}
+
+		#Roman {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 30px;
+			padding-left: 85px;
+			text-align: center;
+			float: left;
+		}
+
+		#Alpha {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 30px;
+			padding-right: 85px;
+			text-align: center;
+			float: right
+		}
+
+		table, td, th {
+			font-size: 18px;
+			list-style-type: upper-roman;
+			padding-left: 100px;
+			padding-top: 50px;
+			border: 1px solid;
+			border-collapse: collapse;
+			text-align: center;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	
+	<!-- Primo div con la sezione Vacanza -->
+
+	<div class="container">
+		
+		<!-- Assegnazione del titolo e del sottotitolo -->
+
+		<h1 class="Titolo"> Vacanza </h1>
+		<br>
+		<h2 class="Sottotitolo"> Le mie Vacanze </h2>
+
+		<!-- Paragrafo -->
+
+		<p class="Paragrafo"> <i> Durante Queste vacanze con la mia famiglia sono andato a Roma. Ho visitato, in particolare, il Colosseo ed il Pantheon, ma ho visto anche gran parte della citta'. </i> </p>
+
+
+		<!-- Immagine -->
+
+		<div class="row">
+			
+			<div class="col-sm-4">	
+				<img width="100%" src="https://www.ilpost.it/wp-content/uploads/2017/07/colosseo.jpg" class="Immagine">
+			</div>
+			<div class="col-sm-4">
+				<img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/0/06/Rome_Pantheon_front.jpg" class="Immagine">
+			</div>
+			<div class="col-sm-4">
+				<img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg" class="Immagine">
+			</div>
+
+		</div>
+
+		<br>
+		<br>
+
+	<!-- Lista puntata con numeri romani e con le lettere -->
+
+		<div class="list-group" id="Roman">
+
+			<a href="https://it.wikipedia.org/wiki/Pantheon_(Roma)" class="list-group-item" target="_blank"> Pantheon </a>
+			<a href="https://it.wikipedia.org/wiki/Colosseo" target="_blank" class="list-group-item"> Colosseo </a>
+			<a href="https://it.wikipedia.org/wiki/Fontana_di_Trevi" class="list-group-item" target="_blank"> Fontana di Trevi </a>
+			<a href="https://it.wikipedia.org/wiki/Basilica_di_San_Pietro_in_Vaticano" class="list-group-item" target="_blank"> San Pietro </a>
+
+		</div>
+
+
+		<div class="list-group" id="Alpha">
+
+			<a href="#" class="list-group-item"> Visita al Pantheon </a>
+			<a href="#" class="list-group-item"> Giro per San Pietro </a>
+			<a href="#" class="list-group-item"> Pranzo con pizza </a>
+			<a href="#" class="list-group-item"> Visita al Colosseo </a>
+
+		</div>
+
+	</div>
+
+
+	<br> 
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<!-- Secondo div con la sezione Hobby -->
+
+	<div class="container">
+
+		<!-- Assegnazione del titolo e del sottotitolo -->
+
+		<h1 class="Titolo"> Hobby </h1>
+		<br>
+		<h2 class="Sottotitolo"> I miei Hobby </h2>
+
+		<!-- Paragrafo -->
+
+		<p class="Paragrafo"> <i> Durante le vacanze i miei hobby principali erano uscire con gli amici e guardare serie tv. </i> </p>
+
+		<!-- Link con Immagine -->
+
+		<div class="row">
+			
+			<div class="col-sm-4">	
+				<a href="#"> <img alt="Cella gang" width="100%" class="Immagine" src=".\20191103_155704.jpg" > </a>
+			</div>
+			<div class="col-sm-4">
+				<img width="100%" src=".\20190713_142721.jpg" class="Immagine">
+			</div>
+			<div class="col-sm-4">
+				<img width="100%" class="Immagine" src=".\20191103_160246.jpg">
+			</div>
+
+		</div>
+
+		<br>
+
+		<div class="list-group">
+
+			<a href="#" class="list-group-item"> 1) Foto fatta al Lucca Comics 2019 </a>
+			<a href="#" class="list-group-item"> 2) Foto su Castel Sant'Elmo </a>
+			<a href="#" class="list-group-item"> 3) Foto fatta al Lucca Comics 2019 </a>
+			<a href="https://youtu.be/R3l_0rLGVw8" class="list-group-item" target="_blank"> 4) Cimichong Slayer </a>
+
+		</div>
+
+
+
+
+	</div>
+
+</body>
+
+</html>
