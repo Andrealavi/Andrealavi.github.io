@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Compila il tuo form! </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css"> 
+
+        #frm {
+
+            padding-left: 2.5cm;
+            padding-right: 2.5cm;
+            padding-top: 2.5cm;
+
+        }
+
+        #btn {
+
+            background-color: blue;
+            color: white;
+        }
+
+        #titolo {
+
+            padding-left: 2.5cm;
+        }
+    </style>
+    
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./goku.jfif" width="30" height="30" alt="" loading="lazy">
+              </a>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./vacanze.html"> Vacanze <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+
+        <h1 id="titolo"> Compila il tuo from! </h1>
+
+        <form id="frm">
+            <div class="form-group">
+              <label for="text"> Nome : </label>
+              <input type="text" class="form-control" id="Nome">
+            </div>
+
+            <div class="form-group">
+              <label for="text" > Età : </label>
+              <input type="text" class="form-control" id="Eta">
+            </div>
+
+            <div class="form-group">
+                <label for="text" > Città : </label>
+                <input type="text" class="form-control" id="Citta">
+            </div>
+
+            <button id="btn" type="submit" onclick="funzione()" class="btn btn-default"> Premimi! </button>
+
+        </form>
+
+
+
+        <br>
+        <br>
+
+        <p id="demo"></p>
+
+        <script src="./form.js"></script>
+    </body>
+
+</html>
